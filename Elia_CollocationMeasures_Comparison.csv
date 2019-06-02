@@ -1,0 +1,11 @@
+Collocation Measure,"Top 4,626_R","Top 14,550_R","Top 29,100_R","Top 14,550_P","Top 29,100_P"
+Delta P,3,10,21,3,3
+MI,3,10,21,3,3
+MI2,23,36,51,11,8
+MI3,37,50,64,16,10
+Log Dice,36,49,64,15,10
+Salience,40,54,68,17,11
+TWF,40,54,68,17,11
+Raw frequency,41,42,70,13,11
+Log Likelihood,42,55,69,17,11
+T-score,42,56,70,18,11
