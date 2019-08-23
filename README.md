@@ -1,6 +1,7 @@
 # Evaluation of automatic collocation extraction methods for language learning
 
-This repository contains the code for the paper on Evaluation of automatic collocation extraction methods for language learning submitted to the [14<sup>th</sup> Workshop on Innovative Use of NLP for Building Educational Applications (BEA)](https://sig-edu.org/bea/current) at [The 57th Annual Meeting of Association for Computational Linguistics (ACL) 2019](http://www.acl2019.org/EN/index.xhtml).
+This repository contains the code for the paper on [Evaluation of automatic collocation extraction methods for language learning](https://www.aclweb.org/anthology/W19-4428) accepted at the [14<sup>th</sup> Workshop on Innovative Use of NLP for Building Educational Applications (BEA)](https://sig-edu.org/bea/current) at [The 57<sup>th</sup> Annual Meeting of Association for Computational Linguistics (ACL) 2019](http://www.acl2019.org/EN/index.xhtml).
+Additionally, the [poster](https://www.researchgate.net/publication/335368166_Collocations_Poster_BEA_ACL_2019pdf) presented at the workshop.
 
 ## Installation
 * Python 3.6+ (Install using [Anaconda](https://www.anaconda.com/distribution/) - Recommended and tested!)
@@ -41,26 +42,29 @@ Extract collocates for each of the 3 test sets of Sketch Engine, FLAX and Elia.
 
 ## Results Plot:
 1. For Plotting of Results many graph variants were used and the final one was selected. To run all of these,
-- Open the Ipython notebook **Results_Plot.ipynb**
-- Change path to the folder where the **Elia_CollocationMeasures_Comparison.csv** file (provided with the code) is located. By default this should be in the current directory and hence the variable 'plotDataFolder' need not be changed.
-- Run all cells in the notebook.
-- View the plots/graphs inline in the notebook or click on it to open it in a new tab to save it locally.
+    - Open the Ipython notebook **Results_Plot.ipynb**
+    - Change path to the folder where the **Elia_CollocationMeasures_Comparison.csv** file (provided with the code) is located. By default this should be in the current directory and hence the variable 'plotDataFolder' need not be changed.
+    - Run all cells in the notebook.
+    - View the plots/graphs inline in the notebook or click on it to open it in a new tab to save it locally.
 
 
 ## Citation
 If you use this paper in your research, we'd be appreciate if you cite the paper:
 
-Evaluation of automatic collocation extraction methods for language learning, Bhalla, Vishal and Klimcikova, Klara, Proceedings of the 14th Workshop on Innovative Use of NLP for Building Educational Applications (BEA), Association for Computational Linguistics (ACL). August 2019
+Evaluation of automatic collocation extraction methods for language learning, Bhalla, Vishal and Klimcikova, Klara, Proceedings of the Fourteenth Workshop on Innovative Use of NLP for Building Educational Applications (BEA), Association for Computational Linguistics (ACL). August 2019
 
 or, in bibtex format:
 ```
-@inproceedings{autocoleval,
-  author    = {Bhalla, Vishal and Klimcikova, Klara},
-  title     = {Evaluation of automatic collocation extraction methods for language learning},
-  booktitle = {14th Workshop on Innovative Use of NLP for Building Educational Applications (BEA) at The 57th Annual Meeting of The Association for Computational Linguistics (ACL)},
-  address = {Florence, Italy},
-  month = {August},
-  year = {2019}
-  publisher = {Association for Computational Linguistics}
+@inproceedings{bhalla-klimcikova-2019-autocoleval,
+    title = "Evaluation of automatic collocation extraction methods for language learning",
+    author = "Bhalla, Vishal and Klimcikova, Klara",
+    booktitle = "Proceedings of the Fourteenth Workshop on Innovative Use of NLP for Building Educational Applications (BEA) at The 57th Annual Meeting of The Association for Computational Linguistics (ACL)",
+    month = August,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/W19-4428",
+    pages = "264--274",
+    abstract = "A number of methods have been proposed to automatically extract collocations, i.e., conventionalized lexical combinations, from text corpora. However, the attempts to evaluate and compare them with a specific application in mind lag behind. This paper compares three end-to-end resources for collocation learning, all of which used the same corpus but different methods. Adopting a gold-standard evaluation method, the results show that the method of dependency parsing outperforms regex-over-pos in collocation identification. The lexical association measures (AMs) used for collocation ranking perform about the same overall but differently for individual collocation types. Further analysis has also revealed that there are considerable differences between other commonly used AMs.",
 }
 ```
